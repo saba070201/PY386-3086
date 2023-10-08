@@ -74,7 +74,17 @@
 #   l[k]=l[n]
 #   l[n]=midle_value
 #   l[k],l[n]= l[n],l[k]
-def custom_print(*words):
-  for i in words: 
-    print(i)
-custom_print(1,2,3)
+# def custom_print(*words):
+#   for i in words: 
+#     print(i)
+# custom_print(1,2,3)
+# import random 
+# def find_elems(l):
+#   result_array=[]
+#   for i in range(len(l)): 
+#     if i%2==1 and l[i]%2==0:
+#       result_array.append(l[i])
+#   return result_array 
+# l=[random.randint(1,1000) for i in range(100)]
+# res=find_elems(l)
+# print(res)
